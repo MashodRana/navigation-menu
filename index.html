@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+    <link rel="stylesheet" href="styles/navigation-menu.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        nav {
+            background-color: rgba(135, 207, 235, 0.705);
+            font-size: 25px;
+            font-weight: 700;
+            overflow: hidden;
+            box-shadow: 0 1px 10px 0 rgba(128, 128, 128, 0.698);
+
+        }
+
+        ul {
+            list-style: none;
+            float: right;
+        }
+
+        li,
+        span {
+            display: inline-block;
+            color: rgba(0, 0, 0, 0.65);
+        }
+
+        li a,
+        span a {
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.65);
+            display: block;
+            padding: 1.5rem;
+        }
+
+        li a:hover {
+            color: white;
+            background-color: rgba(135, 207, 235, 0.924);
+        }
+
+        .container {
+            margin-top: 1em;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.801);
+            padding: 2em;
+        }
+
+        .more-nav-bars {
+            text-align: left;
+            padding: 2em 20em;
+        }
+
+        .more-nav-bars a {
+            color: black;
+            display: block;
+            padding: 0.5em;
+        }
+
+        .nav-bars p {
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span><a href="">LOGO</a></span>
+            <ul class="">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <h1>This is a simple navigation bar. Create with HTML and CSS.</h1>
+
+        <div class="more-nav-bars">
+            <p>
+                Below you will find more <strong>navigation bars</strong> design with different elements and properties.
+            </p>
+            <a href="/index.html">Simple Navigation Bar</a>
+            <a href="/nav-flexbox.html">Navigation Bar with Flexbox</a>
+        </div>
+    </section>
+</body>
+
+</html>
